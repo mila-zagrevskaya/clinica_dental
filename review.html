@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./review.css" />
-    <link rel="stylesheet" href="./form.css">
+    <link rel="stylesheet" href="./form.css" />
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -216,18 +216,18 @@
     </div>
 
     <script>
-      var button = document.getElementsByClassName('has-modal')[0];
-      var overlay = document.querySelector('.modal');
-      var btnCloseModal = document.querySelector('.close-modal-btn');
+        var button = document.getElementsByClassName('has-modal')[0];
+        var overlay = document.querySelector('.modal');
+        var btnCloseModal = document.querySelector('.close-modal-btn');
 
-      const getModal = () => {
-        overlay.style.display = 'block';
-      };
-      const closeModal = () => {
-        overlay.style.display = 'none';
-      };
-      button.addEventListener('click', getModal);
-      btnCloseModal.addEventListener('click', closeModal);
+        const getModal = () => {
+          overlay.style.display = 'block';
+        };
+        const closeModal = () => {
+          overlay.style.display = 'none';
+        };
+        button.addEventListener('click', getModal);
+        btnCloseModal.addEventListener('click', closeModal);
     </script>
   </body>
 </html>

@@ -150,18 +150,18 @@
     </div>
 
     <script>
-      var button = document.getElementsByClassName('has-modal')[0];
-      var overlay = document.querySelector('.modal');
-      var btnCloseModal = document.querySelector('.close-modal-btn');
+        var button = document.getElementsByClassName('has-modal')[0];
+        var overlay = document.querySelector('.modal');
+        var btnCloseModal = document.querySelector('.close-modal-btn');
 
-      const getModal = () => {
-        overlay.style.display = 'block';
-      };
-      const closeModal = () => {
-        overlay.style.display = 'none';
-      };
-      button.addEventListener('click', getModal);
-      btnCloseModal.addEventListener('click', closeModal);
+        const getModal = () => {
+          overlay.style.display = 'block';
+        };
+        const closeModal = () => {
+          overlay.style.display = 'none';
+        };
+        button.addEventListener('click', getModal);
+        btnCloseModal.addEventListener('click', closeModal);
     </script>
   </body>
 </html>
